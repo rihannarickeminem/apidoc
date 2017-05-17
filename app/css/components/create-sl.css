@@ -1,0 +1,92 @@
+@import '../settings';
+@import '../common/typography';
+@import '../common/colors';
+@import '../common/layout';
+
+.topic-item {
+  display: flex;
+  justify-content: space-between;
+}
+.product-wrap_flex-column_align-center {
+  margin: 20px 0 0 0;
+  borderTop: 1px solid black;
+  padding: 15px;
+  flex: 1 1 auto;
+  display: flex;
+  flexDirection: column;
+  alignItems: center;
+  width: 100%;
+  justifyContent: center;
+}
+.topic {
+  @apply --flexNotMoreThan200;
+  font-size: var(--fontMedium);
+}
+.form-flex-margin {
+  margin: 20px 10px 0 0;
+}
+.create-shop-list-wrap {
+  margin-top: 80px;
+}
+.editProductWrap {
+}
+.wrap-blocks_max-width {
+  max-width: 898px;
+}
+.message {
+  color: red;
+  font-size: 30px;
+}
+.wrap-blocks_max-width_left-row {
+  order: 0;
+  width: 100%;
+  display: flex;
+  flexDirection: row;
+  flex: 1 1 auto;
+  flexWrap: wrap;
+}
+.textarea-sizes {
+  max-width: 470px;
+  height: 150px;
+}
+.product-count {
+  font-size: 101px;
+  position: relative;
+  top: 50px;
+  left: -100px;
+  width: 0;
+}
+.delete-product {
+  color: red;
+  font-size: 101px;
+  position: relative;
+  top: 100px;
+  left: -200px;
+  width: 0;
+}
+.delete-product:hover {
+  color: magenta;
+  cursor: crosshair;
+}
+.button {
+  font-size: var(--fontMedium);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 28px;
+  color: #fff;
+}
+
+.increment {
+  background-color: var(--colorSalem);
+}
+
+.decrement {
+  background-color: var(--colorDodgerBlue);
+}
+
+.destroy {
+  background-color: var(--colorPunch);
+}
+

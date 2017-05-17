@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+public
+compiled
+server/picpath
+doc
+.DS_Store
+.swp
+env.sh
+bower_components
+.env
+

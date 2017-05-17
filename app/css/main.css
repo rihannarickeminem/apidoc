@@ -1,0 +1,40 @@
+@import 'settings';
+@import 'common/layout';
+@import 'common/typography';
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--fontMontserrat);
+}
+
+.app {
+  @apply --box;
+  height: 100%;
+  font-weight: normal;
+  font-smoothing: antialiased;
+  padding-bottom: 25px;
+}
+
+.product-wrap_flex-column_align-center div.filepicker {
+  width:100%;
+}
+.filepicker.dropzone.dz-clickable {
+  width:100%;
+  background-color: rgba(223, 36, 173, 1);
+}
+
+/* Add your global styles below... */
+
+/* ex:
+
+:global {
+  & .red { color: red; }
+  & .blue { color: blue; }
+}
+
+*/

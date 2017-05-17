@@ -1,0 +1,4 @@
+/compiled/**
+/public/**
+/webpack/**
+/app/middlewares/promiseMiddleware.js

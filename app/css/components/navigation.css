@@ -1,0 +1,45 @@
+@import '../common/colors';
+@import '../common/typography';
+
+.navigation {
+  padding: 0 28px;
+}
+
+.item {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 32px;
+  color: var(--colorBlack);
+}
+
+.logo {
+  font-size: var(--fontHuge);
+}
+
+.active {
+  color: var(--colorDodgerBlue);
+}
+.createp {
+  color: #FF64AB;
+}
+.createp:hover {
+  color: #25FF21;
+  font-size: 20px;
+  text-decoration: none;
+}
+.shoplist {
+  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #F35D32;
+  margin: 0 5px 0 0;
+}
+.shoplist:hover {
+  color: #FF00DF;
+}
+.inline {
+  display: inline-block;
+}

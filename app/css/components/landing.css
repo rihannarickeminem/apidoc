@@ -1,0 +1,24 @@
+/* @value font-x-large from '../settings.css'; */
+/* @value color-lime from '../common/colors.css'; */
+
+@import '../settings';
+@import '../common/typography';
+@import '../common/colors';
+@import '../common/button';
+@import '../common/input';
+
+.landing {
+  margin: auto;
+  margin-top: 100px;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+  /* color: color-lime; */
+  color: var(--colorDodgerBlue);
+  font-size: var(--fontHuge);
+  /* font-size: font-x-large; */
+  /* display: block; */
+  /* position: absolute; */
+  /* margin: 0 auto; */
+  /* padding: 0 28px; */
+}
